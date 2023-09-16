@@ -1,0 +1,22 @@
+.headerContainer {
+    padding: 24px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Playfair Display;
+    .heading {
+        font-weight: bold !important;
+        font-size: 32px;
+    }
+    .tabsContainer {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        >li {
+            margin-left: 12px;
+        }
+    }
+}
